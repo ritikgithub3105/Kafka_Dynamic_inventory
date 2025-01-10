@@ -1,0 +1,8 @@
+---
+  - name: Installing kafka and it's dependencies
+    hosts: all
+    become: true
+    remote_user: ubuntu
+    roles:
+      - kafka
+
