@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ritikgithub3105/Kafka_Dynamic_inventory.git
+                git branch: 'main', url: 'https://github.com/ritikgithub3105/Kafka_Dynamic_inventory.git'
             }
         }
     
